@@ -12,15 +12,11 @@ body {
   color: #333;
 }
 
-#headerBranding img {
-  max-width: 100%;
-  height: auto;
-}
-
+/* Sidebar / Navbar */
 header {
-  width: 250px; /* Adjust width as needed */
-  background-color: #2e2e2e;
-  color: #ffffff;
+  width: 250px; 
+  background-color: #f4f4f4; 
+  color: #2e2e2e;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -28,19 +24,26 @@ header {
   position: fixed;
   top: 0;
   bottom: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#headerBranding img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 #headerNavbar {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   width: 100%;
   text-align: center;
 }
 
 #headerNavbar a {
-  color: #ffffff;
+  color: #2e2e2e;
   text-decoration: none;
   font-size: 1.1em;
   padding: 10px 0;
@@ -48,14 +51,14 @@ header {
 }
 
 #headerNavbar a:hover {
-  background-color: #444444;
+  background-color: #e0e0e0;
 }
 
 /* Main Content Styling */
 main {
-  margin-left: 250px; /* Matches sidebar width */
+  margin-left: 250px; 
   padding: 40px;
-  width: 100%;
+  width: calc(100% - 250px); 
 }
 
 h1 {
@@ -79,9 +82,11 @@ p {
 /* Footer Styling */
 footer {
   margin-left: 250px;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: #f4f4f4;
   color: #333;
+  width: calc(100% - 250px); 
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); 
   text-align: center;
   position: relative;
   bottom: 0;
