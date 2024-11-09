@@ -10,7 +10,6 @@ body, html {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   color: #333;
-  overflow-x: hidden;
 }
 
 /* Sidebar styling */
@@ -26,6 +25,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
+  z-index: 2;
 }
 
 /* Logo inside the navbar */
@@ -55,8 +55,11 @@ body, html {
 .main-content {
   margin-left: 200px; 
   padding: 20px;
-  position: relative;
+  width: calc(100% - 200px); 
   min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  background-color: #e9f5ff; 
 }
 
 /* Footer styling */
