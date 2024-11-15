@@ -1,56 +1,53 @@
-/* General Layout Styling */
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  background-color: #f0f8ff;
-  margin: 0;
-  padding: 0;
-}
-
-/* Header Navbar styling */
-#headerNavbar {
-  width: 100%;
-  height: 80px; 
-  background-color: #f5f5f5;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Header */
+header {
+  background-color: #f5f5f5; 
+  color: #333; 
+  width: 100vw;
+  padding: 10px 0;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Logo styling */
-#headerNavbar img {
-  height: 60px; 
-  width: auto;
+/* Logo Image */
+header img {
+  height: 50px; 
+  margin-left: 20px; 
 }
 
-/* Navbar links */
+/* Navbar Links */
+#headerNavbar {
+  display: flex;
+  gap: 20px; 
+  margin-right: 20px; 
+}
+
 #headerNavbar a {
-  font-size: 16px;
+  color: #333; 
   text-decoration: none;
-  color: #333;
-  margin: 0 15px;
+  font-size: 1em;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 #headerNavbar a:hover {
-  background-color: #e0e0e0;
-  color: #000;
-  padding: 5px 10px;
-  border-radius: 4px;
+  color: #007acc; 
 }
 
-/* Main content styling */
+/* Main Content */
 .main-content {
-  padding: 100px 20px 20px; 
-  max-width: 1200px;
+  padding-top: 70px;
   margin: 0 auto;
-  background-color: #e9f5ff;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #f0f8ff;
 }
+
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 
 /* Footer styling */
 footer {
