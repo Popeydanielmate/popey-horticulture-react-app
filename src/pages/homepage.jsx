@@ -5,6 +5,7 @@ export default function Homepage() {
       <div>
         <section id="home">
           <h1>Popey's Horticulture - Lawns & Gardens</h1>
+          <p>Horticulturist based in Leeton, servicing the MIA region specialising in lawn maintenance & hedging</p>
           <img 
             src={hort_cover_photo} 
             alt="Beautiful garden and lawn maintained by Popey's Horticulture" 
