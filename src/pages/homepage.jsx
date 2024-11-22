@@ -1,9 +1,14 @@
+import hort_cover_photo from "../assets/hort_cover_photo.jpg"
+
 export default function Homepage() {
     return (
       <div>
         <section id="home">
-          <h1>Welcome to Popey's Horticulture</h1>
-          <p>Your go-to place for all your horticulture needs!</p>
+          <h1>Popey's Horticulture - Lawns & Gardens</h1>
+          <img 
+            src={hort_cover_photo} 
+            alt="Beautiful garden and lawn maintained by Popey's Horticulture" 
+          />
         </section>
         <section id="about">
           <h2>About Us</h2>
@@ -20,4 +25,5 @@ export default function Homepage() {
       </div>
     );
   }
+  
   
