@@ -47,15 +47,21 @@ header img {
 }
 
 /* Home Section Image */
-.main-content #home img {
+#home img {
   width: 100%; 
-  max-width: 800px; 
   height: auto; 
   display: block; 
-  margin: 20px 0; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 0; 
+  object-fit: cover; 
 }
 
+/* Home Section Container */
+#home {
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+  overflow: hidden; 
+}
 
 /* Footer */
 footer {
