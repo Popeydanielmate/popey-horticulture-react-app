@@ -44,6 +44,7 @@ header img {
   font-family: 'Arial', sans-serif; 
   position: relative; 
   z-index: 1; 
+  box-sizing: border-box; 
 }
 
 /* Home Section Container */
@@ -51,7 +52,7 @@ header img {
   margin: 0;
   padding: 0;
   width: 100%; 
-  overflow: hidden; 
+  box-sizing: border-box; 
 }
 
 /* Homepage Contact Icons */
@@ -96,13 +97,15 @@ header img {
   width: 100%;
   max-width: 1200px; 
   margin: 20px auto; 
-  overflow: hidden;
+  overflow: hidden; 
+  box-sizing: border-box; 
 }
 
 /* Slider Images */
 .slick-slide img {
-  width: 100%;
-  height: auto;
+  width: 100%; 
+  height: auto; 
+  display: block; 
   border-radius: 5px; 
   object-fit: cover; 
 }
@@ -128,7 +131,6 @@ header img {
   font-size: 20px; 
   opacity: 1; 
 }
-
 
 /* Footer */
 footer {
@@ -180,4 +182,5 @@ footer {
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
+  box-sizing: border-box; 
 }
