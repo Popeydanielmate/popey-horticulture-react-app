@@ -46,16 +46,6 @@ header img {
   z-index: 1; 
 }
 
-/* Home Section Image */
-#home img:not(.homepage-link img) {
-  width: 100%; 
-  height: auto; 
-  display: block; 
-  margin: 0; 
-  object-fit: cover; 
-}
-
-
 /* Home Section Container */
 #home {
   margin: 0;
@@ -101,9 +91,42 @@ header img {
   font-size: 0.9em;
 }
 
-/* Ensure text and icons are separated */
-#home p {
-  margin-bottom: 10px; 
+/* Slider Container */
+.slider-container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 20px auto; 
+  overflow: hidden;
+}
+
+/* Slider Images */
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; 
+  object-fit: cover; 
+}
+
+/* Slider Navigation Buttons */
+.slick-prev,
+.slick-next {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  z-index: 10; 
+  display: block !important; 
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 123, 255, 0.5); 
+  border-radius: 50%; 
+}
+
+/* Arrow Icons */
+.slick-prev:before, 
+.slick-next:before {
+  color: #ffffff; 
+  font-size: 20px; 
+  opacity: 1; 
 }
 
 
