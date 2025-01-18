@@ -15,13 +15,13 @@ import instaIcon from "../assets/insta-icon.png";
 
 export default function Homepage() {
     const settings = {
-        dots: true,          // Show navigation dots
-        infinite: true,      // Loop through images
-        speed: 500,          // Transition speed
-        slidesToShow: 1,     // One image at a time
-        slidesToScroll: 1,   // Scroll one image at a time
-        autoplay: true,      // Automatic sliding
-        autoplaySpeed: 3000, // Time between slides (in ms)
+        dots: true,          
+        infinite: true,      
+        speed: 500,          
+        slidesToShow: 1,     
+        slidesToScroll: 1,   
+        autoplay: true,      
+        autoplaySpeed: 3000, 
     };
 
     return (

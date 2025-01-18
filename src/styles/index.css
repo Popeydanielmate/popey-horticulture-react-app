@@ -12,6 +12,7 @@ header {
   align-items: center;
   padding-top: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  font-family: 'Montserrat', sans-serif; 
 }
 
 /* Sidebar Logo */
@@ -29,6 +30,7 @@ header img {
   font-size: 1.1em;
   display: block;
   text-align: center;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 #headerNavbar a:hover {
@@ -41,7 +43,7 @@ header img {
   padding: 20px;
   width: calc(100% - 220px); 
   background-color: #ffffff; 
-  font-family: 'Arial', sans-serif; 
+  font-family: 'Montserrat', sans-serif; 
   position: relative; 
   z-index: 1; 
   box-sizing: border-box; 
@@ -75,6 +77,7 @@ header img {
   border-radius: 5px;
   background-color: #ffffff;
   transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .homepage-link img {
@@ -141,6 +144,7 @@ footer {
   width: 100%;
   margin-top: 20px;
   font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .footer-links {
@@ -161,6 +165,7 @@ footer {
   border-radius: 5px;
   background-color: #ffffff;
   transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .footer-link img {
@@ -181,6 +186,6 @@ footer {
 /* Reset */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
   box-sizing: border-box; 
 }
