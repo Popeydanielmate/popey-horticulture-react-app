@@ -96,16 +96,16 @@ export default function Homepage() {
             <h2>Our Services</h2>
             <div className="services-container">
                 <div className="service">
-                <h3>Service 1</h3>
-                <p>Description of Service 1...</p>
+                <h3>Hedge Trimming</h3>
+                <p>At Popey's Horticulture, we provide precise and professional hedge trimming to give your garden a clean and polished look. Whether shaping ornamental hedges or maintaining privacy screens, our expert care ensures your hedges remain healthy and vibrant. We carefully trim to promote growth while achieving the exact look you desire, leaving your outdoor space looking neat and well-maintained.</p>
                 </div>
                 <div className="service">
-                <h3>Service 2</h3>
-                <p>Description of Service 2...</p>
+                <h3>Lawn Mowing</h3>
+                <p>Keeping your lawn in pristine condition has never been easier with Popey's Horticulture. We specialize in regular and one-time lawn mowing services tailored to your needs. Our team uses professional equipment to ensure an even cut and a lush, green finish. Let us take the hassle out of lawn care so you can enjoy a perfectly manicured lawn all year round.</p>
                 </div>
                 <div className="service">
-                <h3>Service 3</h3>
-                <p>Description of Service 3...</p>
+                <h3>Planting and Mulching</h3>
+                <p>Transform your garden with our planting and mulching services. Popey’s Horticulture offers expert advice on selecting the right plants for your space and climate. From flower beds to vegetable gardens, we handle everything from soil preparation to planting. To maintain your garden’s health, we apply high-quality mulch to retain moisture, reduce weeds, and give your garden a finished, polished look.</p>
                 </div>
             </div>
             </section>
