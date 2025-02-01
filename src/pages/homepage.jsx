@@ -12,6 +12,13 @@ import hort_cover_photo from "../assets/hort_cover_photo.jpg";
 import envelopeIcon from "../assets/envelope_icon.png";
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
+import before1 from "../assets/before1.jpg";
+import after1 from "../assets/after1.jpg";
+import before2 from "../assets/before2.jpg";
+import after2 from "../assets/after2.jpg";
+import before3 from "../assets/before3.jpg";
+import after3 from "../assets/after3.jpg";
+
 
 export default function Homepage() {
     const settings = {
@@ -99,6 +106,7 @@ export default function Homepage() {
                     <h3>Hedge Trimming</h3>
                     <p>At Popey's Horticulture, we provide precise and professional hedge trimming to give your garden a clean and polished look. Whether shaping ornamental hedges or maintaining privacy screens, our expert care ensures your hedges remain healthy and vibrant. We carefully trim to promote growth while achieving the exact look you desire, leaving your outdoor space looking neat and well-maintained.</p>
                 </div>
+                
                 <div className="service lawn-mowing">
                     <h3>Lawn Mowing</h3>
                     <p>Keeping your lawn in pristine condition has never been easier with Popey's Horticulture. We specialize in regular and one-time lawn mowing services tailored to your needs. Our team uses professional equipment to ensure an even cut and a lush, green finish. Let us take the hassle out of lawn care so you can enjoy a perfectly manicured lawn all year round.</p>
@@ -108,12 +116,35 @@ export default function Homepage() {
                     <p>Transform your garden with our planting and mulching services. Popey’s Horticulture offers expert advice on selecting the right plants for your space and climate. From flower beds to vegetable gardens, we handle everything from soil preparation to planting. To maintain your garden’s health, we apply high-quality mulch to retain moisture, reduce weeds, and give your garden a finished, polished look.</p>
                 </div>
             </div>
+            
         </section>
 
-        <section id="gallery">
-          <h2>Gallery</h2>
-          <p>Some images of our work...</p>
-        </section>
-      </div>
+        <div className="gallery-container">
+            <div className="gallery-item">
+                <img
+                className="gallery-image before"
+                src={before1}
+                alt="Before - Messy garden"
+                />
+                <img
+                className="gallery-image after"
+                src={after1}
+                alt="After - Beautiful garden"
+                />
+            </div>
+            <div className="gallery-item">
+                <img
+                className="gallery-image before"
+                src={before2}
+                alt="Before - Overgrown yard"
+                />
+                <img
+                className="gallery-image after"
+                src={after2}
+                alt="After - Clean and tidy yard"
+                />
+                </div>
+            </div>
+
     );
 }

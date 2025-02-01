@@ -5,7 +5,7 @@ import instaIcon from "../assets/insta-icon.png";
 export default function Footer() {
   return (
     <footer>
-      <h6>Copyright 2024 Popey's Horticulture. Site made by Daniel</h6>
+      <h6>Copyright 2024 Popey's Horticulture. Site made by Daniel Pope</h6>
       <div className="footer-links">
         <a href="mailto:ben@popeyshorticulture.com" className="footer-link">
           <img src={envelopeIcon} alt="Email us" />
