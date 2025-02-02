@@ -114,29 +114,34 @@ export default function Homepage() {
       </section>
 
       <section id="gallery">
-            <h2>Gallery</h2>
-            <h3>Before and After: Transforming Outdoor Spaces</h3>
-            <p>Take a look at some of our recent projects that showcase the incredible transformations we bring to our clients' gardens and lawns.</p>
+        <h2>Gallery</h2>
+        <h3>Before and After: Transforming Outdoor Spaces</h3>
+        <p>
+            Take a look at some of our recent projects that showcase the incredible
+            transformations we bring to our clients' gardens and lawns.
+        </p>
 
-            <div className="gallery-container">
-                {[
-                { before: before1, after: after1 },
-                { before: before2, after: after2 },
-                { before: before3, after: after3 },
-                ].map((pair, index) => (
-                <div key={index} className="gallery-item">
-                    <div className="before-after-wrapper">
-                    <img src={pair.before} alt={`Before Image ${index + 1}`} className="gallery-image before-image" />
-                    <p>Before</p>
-                    </div>
-                    <div className="before-after-wrapper">
-                    <img src={pair.after} alt={`After Image ${index + 1}`} className="gallery-image after-image" />
-                    <p>After</p>
-                    </div>
-                </div>
-                ))}
+        <div className="gallery-container">
+            <div className="gallery-item">
+            <img className="gallery-image before" src={before1} alt="Before" />
+            <img className="gallery-image after" src={after1} alt="After" />
+            <div className="image-label"></div>
             </div>
-            </section>
+
+            <div className="gallery-item">
+            <img className="gallery-image before" src={before2} alt="Before" />
+            <img className="gallery-image after" src={after2} alt="After" />
+            <div className="image-label"></div>
+            </div>
+
+            <div className="gallery-item">
+            <img className="gallery-image before" src={before3} alt="Before" />
+            <img className="gallery-image after" src={after3} alt="After" />
+            <div className="image-label"></div>
+            </div>
+        </div>
+        </section>
+
 
                 
 
