@@ -1,3 +1,8 @@
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Sidebar Header */
 header {
   width: 200px;
