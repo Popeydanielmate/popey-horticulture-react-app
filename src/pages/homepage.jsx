@@ -150,21 +150,36 @@ function Homepage() {
 
         <div className="gallery-container">
             <div className="gallery-item">
-            <img className="gallery-image before" src={before1} alt="Before" />
-            <img className="gallery-image after" src={after1} alt="After" />
-            <div className="image-label"></div>
+            <div className="gallery-image-wrapper before-wrapper">
+                <img className="gallery-image before" src={before1} alt="Before" />
+                <div className="image-label">Before</div>
+            </div>
+            <div className="gallery-image-wrapper after-wrapper">
+                <img className="gallery-image after" src={after1} alt="After" />
+                <div className="image-label">After</div>
+            </div>
             </div>
 
             <div className="gallery-item">
-            <img className="gallery-image before" src={before2} alt="Before" />
-            <img className="gallery-image after" src={after2} alt="After" />
-            <div className="image-label"></div>
+            <div className="gallery-image-wrapper before-wrapper">
+                <img className="gallery-image before" src={before2} alt="Before" />
+                <div className="image-label">Before</div>
+            </div>
+            <div className="gallery-image-wrapper after-wrapper">
+                <img className="gallery-image after" src={after2} alt="After" />
+                <div className="image-label">After</div>
+            </div>
             </div>
 
             <div className="gallery-item">
-            <img className="gallery-image before" src={before3} alt="Before" />
-            <img className="gallery-image after" src={after3} alt="After" />
-            <div className="image-label"></div>
+            <div className="gallery-image-wrapper before-wrapper">
+                <img className="gallery-image before" src={before3} alt="Before" />
+                <div className="image-label">Before</div>
+            </div>
+            <div className="gallery-image-wrapper after-wrapper">
+                <img className="gallery-image after" src={after3} alt="After" />
+                <div className="image-label">After</div>
+            </div>
             </div>
         </div>
         </section>
