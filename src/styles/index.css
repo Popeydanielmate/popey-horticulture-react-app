@@ -272,7 +272,7 @@
 
   .footer-links {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 10px;
     margin-top: 10px;
   }
@@ -290,6 +290,7 @@
     width: 20px;
     height: auto;
   }
+
 }
 
 
