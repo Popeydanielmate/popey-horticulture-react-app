@@ -74,25 +74,25 @@ function Homepage() {
         {/* Image Slideshow */}
         <Slider {...settings}>
           <div>
-            <img src={hort_cover_photo1} />
+            <img src={hort_cover_photo1} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo2} />
+            <img src={hort_cover_photo2} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo3} />
+            <img src={hort_cover_photo3} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo4} />
+            <img src={hort_cover_photo4} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo5} />
+            <img src={hort_cover_photo5} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo6} />
+            <img src={hort_cover_photo6} alt="" />
           </div>
           <div>
-            <img src={hort_cover_photo7} />
+            <img src={hort_cover_photo7} alt="" />
           </div>
         </Slider>
       </section>
