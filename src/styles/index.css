@@ -351,7 +351,7 @@ header img {
   margin-bottom: 20px;
 }
 
-/* Sidebar Navigation Links */
+/* Reset browser default link styles */
 #headerNavbar a {
   color: #333; 
   text-decoration: none;
@@ -359,11 +359,34 @@ header img {
   font-size: 1.1em;
   display: block;
   text-align: center;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
-#headerNavbar a:hover {
-  color: #1500ff; 
+/* Underline animation container */
+#headerNavbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out, height 0.3s ease;
+}
+
+/* Show underline when link is active */
+#headerNavbar a.active:not(:hover)::after {
+  transform: scaleX(1);
+  height: 2px;
+}
+
+/* Show thicker underline on hover */
+#headerNavbar a:hover::after {
+  transform: scaleX(1);
+  height: 4px;
 }
 
 /* Main Content with Sidebar */
