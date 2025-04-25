@@ -42,7 +42,7 @@ function Homepage() {
   return (
     <div>
       <section id="home">
-        <h1>Popey's Horticulture - Lawns & Gardens</h1>
+        <h1>Popey's Horticulture - Mowing & Gardening</h1>
         <p>Horticulturist based in Leeton, servicing the MIA region specialising in lawn maintenance & hedging</p>
 
         {/* Social Media Links */}
