@@ -409,6 +409,54 @@ header img {
   box-sizing: border-box; 
 }
 
+.inline-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 50%; 
+  background: none;  
+}
+
+
+.home-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* a touch bolder */
+
+}
+
+.home-heading .popeys {
+  color: #004c3f;
+  font-size: 2.8rem;
+}
+
+.home-heading .horticulture {
+  color: #8b0000;
+}
+
+.home-heading .subtext {
+  color: #004c3f;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.heading-icon {
+  height: 2.4rem;
+  width: auto;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 /* Homepage Contact Icons */
 .homepage-links {
   display: flex;

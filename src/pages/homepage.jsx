@@ -18,6 +18,7 @@ import before2 from "../assets/before2.jpg";
 import after2 from "../assets/after2.jpg";
 import before3 from "../assets/before3.jpg";
 import after3 from "../assets/after3.jpg";
+import bottlebrush_favicon from "../assets/bottlebrush_favicon.png";
 
 function Homepage() {
     const [clickedService, setClickedService] = useState(null); 
@@ -42,8 +43,15 @@ function Homepage() {
   return (
     <div>
       <section id="home">
-        <h1>Popey's Horticulture - Mowing & Gardening</h1>
-        <p>Horticulturist based in Leeton, servicing the MIA region specialising in lawn maintenance & hedging</p>
+      <h1 className="home-heading">
+        <span className="popeys">POPEY’S</span>{' '}
+        <span className="horticulture">HORTICULTURE</span> –{' '}
+        <span className="subtext">MOWING & GARDENING</span>
+        <img src={bottlebrush_favicon} alt="Bottlebrush Icon" className="inline-icon" />
+      </h1>
+
+
+      <p>Horticulturist based in Leeton, servicing the MIA region specialising in lawn maintenance & hedging</p>
 
         {/* Social Media Links */}
         <div className="homepage-links">
