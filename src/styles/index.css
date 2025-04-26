@@ -431,7 +431,7 @@ header img {
   align-items: center;
   gap: 10px;
   line-height: 1.2;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* a touch bolder */
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); 
 
 }
 
@@ -451,11 +451,13 @@ header img {
 }
 
 .heading-icon {
-  height: 2.4rem;
+  height: 1rem;
   width: auto;
   margin-left: 8px;
   vertical-align: middle;
+  display: inline-block;
 }
+
 
 /* Homepage Contact Icons */
 .homepage-links {
