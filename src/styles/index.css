@@ -409,15 +409,6 @@ header img {
   box-sizing: border-box; 
 }
 
-.inline-icon {
-  width: 28px;
-  height: 28px;
-  vertical-align: middle;
-  margin-right: 8px;
-  border-radius: 50%; 
-  background: none;  
-}
-
 
 .home-heading {
   font-family: 'Montserrat', sans-serif;
@@ -448,14 +439,6 @@ header img {
   color: #004c3f;
   font-weight: 600;
   letter-spacing: 0.5px;
-}
-
-.heading-icon {
-  height: 1rem;
-  width: auto;
-  margin-left: 8px;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 
