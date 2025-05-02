@@ -383,6 +383,26 @@ header img {
   height: 2px;
 }
 
+#headerNavbar a.active {
+  position: relative;
+}
+
+#headerNavbar a.active::before {
+  content: "";
+  position: absolute;
+  bottom: -2px; 
+  right: -20px; 
+  width: 36px;
+  height: 72px;
+  background-image: url("../assets/gumleaf.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: translateY(62.5%); 
+  pointer-events: none;
+}
+
+
 /* Show thicker underline on hover */
 #headerNavbar a:hover::after {
   transform: scaleX(1);
