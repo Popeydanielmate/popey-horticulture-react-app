@@ -33,6 +33,7 @@ function Header() {
     <header>
       <nav id="headerNavbar">
         <img src={popeyHortLogo} alt="Popey's Horticulture Logo" />
+        <div className="nav-link-wrapper">
         <a href="#home" className={activeSection === "home" ? "active" : ""}>
           Home
         </a>
@@ -45,6 +46,7 @@ function Header() {
         <a href="#gallery" className={activeSection === "gallery" ? "active" : ""}>
           Gallery
         </a>
+        </div>
       </nav>
     </header>
   );

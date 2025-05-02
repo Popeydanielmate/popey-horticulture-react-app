@@ -351,6 +351,18 @@ header img {
   margin-bottom: 20px;
 }
 
+/* Wrapper for navbar links */
+#headerNavbar .nav-link-wrapper {
+  background-color: white;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Reset browser default link styles */
 #headerNavbar a {
   color: #333; 
@@ -387,21 +399,6 @@ header img {
   position: relative;
 }
 
-#headerNavbar a.active::before {
-  content: "";
-  position: absolute;
-  bottom: -2px; 
-  right: -20px; 
-  width: 36px;
-  height: 72px;
-  background-image: url("../assets/gumleaf.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 1;
-  transform: translateY(62.5%); 
-  pointer-events: none;
-}
-
 
 /* Show thicker underline on hover */
 #headerNavbar a:hover::after {
@@ -428,7 +425,6 @@ header img {
   width: 100%; 
   box-sizing: border-box; 
 }
-
 
 .home-heading {
   font-family: 'Montserrat', sans-serif;
