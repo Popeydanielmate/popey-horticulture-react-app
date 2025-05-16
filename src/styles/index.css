@@ -412,7 +412,7 @@ header img {
   margin-left: 220px; 
   padding: 20px;
   width: calc(100% - 220px); 
-  background-color: #ffffff; 
+  background-color: #f5f9f2;  
   font-family: 'Montserrat', sans-serif; 
   position: relative; 
   z-index: 1; 
@@ -584,7 +584,6 @@ header img {
 /* Services Section */
 #services {
   padding: 40px 20px;
-  background-color: #faf3e0;
 }
 
 .services-container {
@@ -670,7 +669,6 @@ header img {
 /* Gallery Section */
 #gallery {
   padding: 40px 20px;
-  background-color: #e0faea;
 }
 
 .gallery-container {
