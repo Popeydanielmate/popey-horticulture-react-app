@@ -416,6 +416,7 @@ header img {
   position: relative; 
   z-index: 1; 
   box-sizing: border-box; 
+  padding-bottom: 0;
 }
 
 /* Home Section Container */
