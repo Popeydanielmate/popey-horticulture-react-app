@@ -119,7 +119,12 @@ function Homepage() {
 
       
       <section id="services">
-        <h2>Our Services</h2>
+        <h2 className="services-heading">
+          <span className="our">OUR</span>{' '}
+          <span className="services">SERVICES</span>
+        </h2>
+        <hr className="services-underline" />
+
         <div className="services-container">
           <div
             className={`service hedge-trimming ${

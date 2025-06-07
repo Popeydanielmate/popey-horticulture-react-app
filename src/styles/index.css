@@ -450,6 +450,7 @@ header img {
 
 .home-heading .horticulture {
   color: #8b0000;
+  font-size: 2.8rem;
 }
 
 .home-heading .subtext {
@@ -461,7 +462,7 @@ header img {
 .home-underline {
   border: none;
   border-top: 3px solid #004c3f;
-  width: 95%;
+  width: 100%;
   margin: 5px 0 10px 0;
 }
 
@@ -611,6 +612,39 @@ header img {
 #services {
   padding: 40px 20px;
 }
+
+.services-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.services-heading .our {
+  color: #8b0000; 
+  font-size: 2.8rem;
+}
+
+.services-heading .services {
+  color: #004c3f; 
+  font-size: 2.8rem;
+}
+
+.services-underline {
+  border: none;
+  border-top: 3px solid #004c3f;
+  width: 33%; 
+  margin: 5px 0 20px 0;
+}
+
 
 .services-container {
   display: grid;
