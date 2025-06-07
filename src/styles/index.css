@@ -433,7 +433,7 @@ header img {
   font-weight: 700;
   text-align: left;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -457,6 +457,25 @@ header img {
   font-weight: 600;
   letter-spacing: 0.5px;
 }
+
+.home-underline {
+  border: none;
+  border-top: 3px solid #004c3f;
+  width: 95%;
+  margin: 5px 0 10px 0;
+}
+
+
+#home p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
 
 
 /* Homepage Contact Icons */

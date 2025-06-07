@@ -49,6 +49,9 @@ function Homepage() {
         <span className="subtext">MOWING & GARDENING</span>
       </h1>
 
+      <hr className="home-underline" />
+
+
 
       <p>Horticulturist based in Leeton, servicing the MIA region specialising in lawn maintenance & hedging</p>
 
