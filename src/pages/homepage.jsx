@@ -158,13 +158,32 @@ function Homepage() {
         </div>
       </section>
 
-      <section id="gallery">
-        <h2>Gallery</h2>
-        <h3>Before and After: Transforming Outdoor Spaces</h3>
-        <p>
+      <section>
+           <h2 className="gallery-heading">Gallery</h2>
+           <hr className="gallery-underline" />
+
+          <h3 className="gallery-subheading">
+            {
+              "Before and After: Transforming Outdoor Spaces"
+              .split(" ")
+              .map((word, index) => (
+                <span
+                key={index}
+                style={{ color: index % 2 !== 0 ? "#004c3f" : "inherit" }}>
+                 {word + " "}
+                </span>
+                ))
+                  }
+                  </h3>
+            <hr className="gallery-sub-underline" />
+
+          
+          <p className="gallery-description">
             Take a look at some of our recent projects that showcase the incredible
             transformations we bring to our clients' gardens and lawns.
-        </p>
+          </p>
+
+
 
         <div className="gallery-container">
             <div className="gallery-item">
