@@ -169,7 +169,7 @@ function Homepage() {
               .map((word, index) => (
                 <span
                 key={index}
-                style={{ color: index % 2 !== 0 ? "#004c3f" : "inherit" }}>
+                style={{ color: index % 2 !== 0 ? "#8b0000" : "inherit" }}>
                  {word + " "}
                 </span>
                 ))
