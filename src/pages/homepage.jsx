@@ -48,7 +48,7 @@ function Homepage() {
           </a>
           <a href="tel:0452226521" className="homepage-link">
             <img src={phoneIcon} alt="Call us" />
-            <span>Call</span>
+            <span>Phone</span>
           </a>
           <a
             href="https://www.facebook.com/popeyhorticulture"

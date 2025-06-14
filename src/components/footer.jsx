@@ -13,7 +13,7 @@ export default function Footer() {
         </a>
         <a href="tel:0452226521" className="footer-link">
           <img src={phoneIcon} alt="Call us" />
-          <span>Call</span>
+          <span>Phone</span>
         </a>
         <a
           href="https://www.facebook.com/popeyhorticulture"
