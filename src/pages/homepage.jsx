@@ -158,7 +158,7 @@ function Homepage() {
         </div>
       </section>
 
-      <section>
+      <section id="gallery">
            <h2 className="gallery-heading">Gallery</h2>
            <hr className="gallery-underline" />
 
