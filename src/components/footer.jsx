@@ -1,4 +1,5 @@
 import envelopeIcon from "../assets/envelope_icon.png";
+import phoneIcon from '../assets/phone-icon.png'; 
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
 
@@ -9,6 +10,10 @@ export default function Footer() {
         <a href="mailto:ben@popeyshorticulture.com" className="footer-link">
           <img src={envelopeIcon} alt="Email us" />
           <span>Email</span>
+        </a>
+        <a href="tel:0452226521" className="footer-link">
+          <img src={phoneIcon} alt="Call us" />
+          <span>Call</span>
         </a>
         <a
           href="https://www.facebook.com/popeyhorticulture"
