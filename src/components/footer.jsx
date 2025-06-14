@@ -1,5 +1,5 @@
 import envelopeIcon from "../assets/envelope_icon.png";
-import phoneIcon from '../assets/phone-icon.png'; 
+import phoneIcon from "../assets/phone-icon.webp"; 
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
 

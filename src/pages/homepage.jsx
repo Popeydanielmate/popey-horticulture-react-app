@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import hort_cover_photo7 from "../assets/hort_cover_photo7.jpg";
 import envelopeIcon from "../assets/envelope_icon.png";
-import phoneIcon from '../assets/phone-icon.png';
+import phoneIcon from "../assets/phone-icon.webp";
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
 import before1 from "../assets/before1.jpg";
