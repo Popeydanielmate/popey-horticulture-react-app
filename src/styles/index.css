@@ -523,8 +523,8 @@ header img {
   font-size: 0.9em;
 }
 
-/* Slider Container */
-.slider-container {
+/* Photo Container */
+.photo-container {
   width: 100%;
   max-width: 1200px; 
   margin: 20px auto; 
@@ -532,8 +532,7 @@ header img {
   box-sizing: border-box; 
 }
 
-/* Slider Images */
-.slick-slide img {
+.photo-container img {
   width: 100%; 
   height: auto; 
   display: block; 
@@ -541,27 +540,6 @@ header img {
   object-fit: cover; 
 }
 
-/* Slider Navigation Buttons */
-.slick-prev,
-.slick-next {
-  position: absolute; 
-  top: 50%; 
-  transform: translateY(-50%); 
-  z-index: 10; 
-  display: block !important; 
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 123, 255, 0.5); 
-  border-radius: 50%; 
-}
-
-/* Arrow Icons */
-.slick-prev:before, 
-.slick-next:before {
-  color: #ffffff; 
-  font-size: 20px; 
-  opacity: 1; 
-}
 
 /* About Section */
 #about {

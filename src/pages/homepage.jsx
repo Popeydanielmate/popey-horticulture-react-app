@@ -1,13 +1,6 @@
 import React, { useState } from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import hort_cover_photo1 from "../assets/hort_cover_photo1.jpg";
-import hort_cover_photo2 from "../assets/hort_cover_photo2.jpg";
-import hort_cover_photo3 from "../assets/hort_cover_photo3.jpg";
-import hort_cover_photo4 from "../assets/hort_cover_photo4.jpg";
-import hort_cover_photo5 from "../assets/hort_cover_photo5.jpg";
-import hort_cover_photo6 from "../assets/hort_cover_photo6.jpg";
 import hort_cover_photo7 from "../assets/hort_cover_photo7.jpg";
 import envelopeIcon from "../assets/envelope_icon.png";
 import facebookIcon from "../assets/facebook-icon.png";
@@ -30,15 +23,6 @@ function Homepage() {
     };
 
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
 
   return (
     <div>
@@ -81,30 +65,11 @@ function Homepage() {
           </a>
         </div>
 
-        {/* Image Slideshow */}
-        <Slider {...settings}>
-          <div>
-            <img src={hort_cover_photo1} alt="" />
-          </div>
-          <div>
-            <img src={hort_cover_photo2} alt="" />
-          </div>
-          <div>
-            <img src={hort_cover_photo3} alt="" />
-          </div>
-          <div>
-            <img src={hort_cover_photo4} alt="" />
-          </div>
-          <div>
-            <img src={hort_cover_photo5} alt="" />
-          </div>
-          <div>
-            <img src={hort_cover_photo6} alt="" />
-          </div>
-          <div>
+       {/* Static Hero Image */}
+          <div className="photo-container">
             <img src={hort_cover_photo7} alt="" />
           </div>
-        </Slider>
+
       </section>
 
       <section id="about">
