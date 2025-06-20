@@ -6,12 +6,14 @@ import envelopeIcon from "../assets/envelope_icon.png";
 import phoneIcon from "../assets/phone-icon.webp";
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
+import hort_cover_photo1 from "../assets/hort_cover_photo1.jpg"
 import before1 from "../assets/before1.jpg";
 import after1 from "../assets/after1.jpg";
 import before2 from "../assets/before2.jpg";
 import after2 from "../assets/after2.jpg";
 import before3 from "../assets/before3.jpg";
 import after3 from "../assets/after3.jpg";
+
 
 
 function Homepage() {
@@ -131,6 +133,15 @@ function Homepage() {
       <section id="gallery">
            <h2 className="gallery-heading">Gallery</h2>
            <hr className="gallery-underline" />
+
+      <div className="gallery-photo-wrapper">
+            <img src={hort_cover_photo1} alt="Topiary Town" />
+            <div className="photo-caption">
+              <h4>"  Topiary Town 🌳  "</h4>
+              <p>8th of March 2022</p>
+            </div>
+            </div>
+
 
           <h3 className="gallery-subheading">
             {
