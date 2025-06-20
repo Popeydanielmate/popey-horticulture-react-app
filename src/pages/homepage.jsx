@@ -131,7 +131,7 @@ function Homepage() {
       </section>
 
       <section id="gallery">
-           <h2 className="gallery-heading">Gallery</h2>
+           <h2 className="gallery-heading">GALLERY</h2>
            <hr className="gallery-underline" />
 
       <div className="gallery-photo-wrapper">
