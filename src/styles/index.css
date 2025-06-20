@@ -598,7 +598,6 @@ header img {
 
 .services-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.4rem;
   font-weight: 700;
   text-align: left;
   margin-top: 40px;
@@ -717,7 +716,6 @@ header img {
 .gallery-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.8rem;
-  color: #004c3f;
   font-weight: 700;
   text-align: left;
   margin-top: 40px;
@@ -728,6 +726,15 @@ header img {
   line-height: 1.2;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); 
 }
+
+.gallery-part1 {
+  color: #004c3f; 
+}
+
+.gallery-part2 {
+  color: #8b0000; 
+}
+
 
 
 .gallery-underline {
