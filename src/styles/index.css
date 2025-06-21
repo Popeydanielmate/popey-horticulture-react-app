@@ -740,8 +740,6 @@ header img {
   color: #8b0000; 
 }
 
-
-
 .gallery-underline {
   border: none;
   border-top: 3px solid #004c3f;
@@ -809,7 +807,6 @@ header img {
   align-self: flex-end;      
   opacity: 0.85;
 }
-
 
 
 .gallery-subheading {

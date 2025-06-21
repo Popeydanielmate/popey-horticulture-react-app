@@ -6,7 +6,13 @@ import envelopeIcon from "../assets/envelope_icon.png";
 import phoneIcon from "../assets/phone-icon.webp";
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
+import hort_cover_photo from "../assets/hort_cover_photo.jpg"
 import hort_cover_photo1 from "../assets/hort_cover_photo1.jpg"
+import hort_cover_photo2 from "../assets/hort_cover_photo2.jpg"
+import hort_cover_photo3 from "../assets/hort_cover_photo3.jpg"
+import hort_cover_photo4 from "../assets/hort_cover_photo4.jpg"
+import hort_cover_photo5 from "../assets/hort_cover_photo5.jpg"
+import hort_cover_photo6 from "../assets/hort_cover_photo6.jpg"
 import before1 from "../assets/before1.jpg";
 import after1 from "../assets/after1.jpg";
 import before2 from "../assets/before2.jpg";
@@ -143,12 +149,60 @@ function Homepage() {
            <hr className="gallery-underline" />
 
       <div className="gallery-photo-wrapper">
-            <img src={hort_cover_photo1} alt="Topiary Town" />
-            <div className="photo-caption">
-              <h4>"  Topiary Town 🌳  "</h4>
-              <p>8th of March 2022</p>
-            </div>
-            </div>
+          <img src={hort_cover_photo} alt="Place holder" />
+          <div className="photo-caption">
+            <h4>"  Topiary Town 🌳  "</h4>
+            <p>8th of March 2022</p>
+          </div>
+        </div>
+
+      <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo1} alt="Topiary Town" />
+          <div className="photo-caption">
+            <h4>"  Topiary Town 🌳  "</h4>
+            <p>8th of March 2022</p>
+          </div>
+        </div>
+
+        <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo2} alt="Photo 2" />
+          <div className="photo-caption">
+            <h4>" Replace with caption "</h4>
+            <p>Replace with date</p>
+          </div>
+        </div>
+
+        <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo3} alt="Photo 3" />
+          <div className="photo-caption">
+            <h4>" Replace with caption "</h4>
+            <p>Replace with date</p>
+          </div>
+        </div>
+
+        <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo4} alt="Photo 4" />
+          <div className="photo-caption">
+            <h4>" Replace with caption "</h4>
+            <p>Replace with date</p>
+          </div>
+        </div>
+
+        <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo5} alt="Photo 5" />
+          <div className="photo-caption">
+            <h4>" Replace with caption "</h4>
+            <p>Replace with date</p>
+          </div>
+        </div>
+
+        <div className="gallery-photo-wrapper">
+          <img src={hort_cover_photo6} alt="Photo 6" />
+          <div className="photo-caption">
+            <h4>" Replace with caption "</h4>
+            <p>Replace with date</p>
+          </div>
+        </div>
 
 
           <h3 className="gallery-subheading">
