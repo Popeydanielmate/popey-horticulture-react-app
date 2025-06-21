@@ -206,23 +206,11 @@ function Homepage() {
 
 
         <h3 className="gallery-subheading">
-          {
-            "Before and After: Transforming Outdoor Spaces"
-              .split(" ")
-              .map((word, index) => (
-                <span
-                  key={index}
-                  style={{ color: index < 3 ? "#004c3f" : "#8b0000" }}
-                >
-                  {word + " "}
-                </span>
-              ))
-          }
+          <span className="heading-green">Before and After:</span>{" "}
+          <span className="heading-red">Transforming Outdoor Spaces</span>
         </h3>
 
-  
-
-            <hr className="gallery-sub-underline" />
+        <hr className="gallery-sub-underline" />
 
           
           <p className="gallery-description">

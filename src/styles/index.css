@@ -816,6 +816,15 @@ header img {
   margin-bottom: 10px;
 }
 
+.heading-green {
+  color: #004c3f;
+}
+
+.heading-red {
+  color: #8b0000;
+}
+
+
 .gallery-sub-underline {
   border: none;
   border-top: 3px solid #004c3f;
