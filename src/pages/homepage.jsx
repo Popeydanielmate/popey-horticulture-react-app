@@ -81,7 +81,11 @@ function Homepage() {
 
       <section id="about">
       <div class="about-content">
-        <h2>We help clients to create the perfect outdoor garden space</h2>
+      <h2>
+        <span>We help clients to create</span>{' '}
+        <span className="about-accent">the perfect outdoor garden space</span>
+      </h2>
+
         <hr className="about-underline" />
         <p>Popey's Horticulture, your trusted local expert in garden care and horticultural services throughout Leeton, Narrandera, and the Murrumbidgee Irrigation Area (MIA). We specialise in creating and maintaining beautiful outdoor spaces, focusing on vibrant gardens, lush lawns, and expertly trimmed hedges. Whether it’s a residential property, commercial or public space, our goal is to bring your vision of a stunning, thriving outdoor environment to life.</p>
 
