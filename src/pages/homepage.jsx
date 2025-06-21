@@ -149,10 +149,10 @@ function Homepage() {
            <hr className="gallery-underline" />
 
       <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo} alt="Place holder" />
+          <img src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
           <div className="photo-caption">
-            <h4>"  Topiary Town 🌳  "</h4>
-            <p>8th of March 2022</p>
+            <h4>"  Larger Yard Lawn Maintenance 🌿  "</h4>
+            <p>17th of July 2024</p>
           </div>
         </div>
 
@@ -165,42 +165,42 @@ function Homepage() {
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo2} alt="Photo 2" />
+          <img src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim" />
           <div className="photo-caption">
-            <h4>" Replace with caption "</h4>
-            <p>Replace with date</p>
+            <h4>" Lilly Pilly Hedge Trim 🌳🌳🌳 "</h4>
+            <p>16th of October 2024</p>
           </div>
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo3} alt="Photo 3" />
+          <img src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys" />
           <div className="photo-caption">
-            <h4>" Replace with caption "</h4>
-            <p>Replace with date</p>
+            <h4>" Spent My Day Hedging Lilly Pillys 🌲  "</h4>
+            <p>16th of October 2024</p>
           </div>
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo4} alt="Photo 4" />
+          <img src={hort_cover_photo4} alt="Buxus Hedging" />
           <div className="photo-caption">
-            <h4>" Replace with caption "</h4>
-            <p>Replace with date</p>
+            <h4>" Buxus Hedging 🌳✂️ "</h4>
+            <p>16th of March 2023</p>
           </div>
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo5} alt="Photo 5" />
+          <img src={hort_cover_photo5} alt="More Buxus Hedging " />
           <div className="photo-caption">
-            <h4>" Replace with caption "</h4>
-            <p>Replace with date</p>
+            <h4>" More Buxus Hedging 🥵 "</h4>
+            <p>15th of September</p>
           </div>
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo6} alt="Photo 6" />
+          <img src={hort_cover_photo6} alt="Topiary Tuesday" />
           <div className="photo-caption">
-            <h4>" Replace with caption "</h4>
-            <p>Replace with date</p>
+            <h4>" Topiary Tuesday 🌳🍃 "</h4>
+            <p>10th of September 2024</p>
           </div>
         </div>
 
