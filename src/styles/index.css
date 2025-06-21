@@ -812,7 +812,6 @@ header img {
 .gallery-subheading {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #004c3f; 
   margin-top: 75px; 
   margin-bottom: 10px;
 }
@@ -820,7 +819,7 @@ header img {
 .gallery-sub-underline {
   border: none;
   border-top: 3px solid #004c3f;
-  width: 50%;
+  width: 52%;
   margin: 10px 0 20px 0;
 }
 
