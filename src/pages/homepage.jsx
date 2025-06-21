@@ -230,8 +230,8 @@ function Homepage() {
           </div>
 
           <div className="photo-caption-overlay">
-            <h4>" Neatly Finished Lawn "</h4>
-            <p>15th of August 2024</p>
+            <h4>" My First Ever Turf Laying Job, Just Needs A Top Dressing! "</h4>
+            <p>4th of December 2024</p>
           </div>
         </div>
 
@@ -244,8 +244,8 @@ function Homepage() {
           </div>
 
           <div className="photo-caption-overlay">
-            <h4>" Neatly Finished Lawn "</h4>
-            <p>15th of August 2024</p>
+            <h4>" Olive Hedge Trim Up 🫒 "</h4>
+            <p>22nd of October 2024</p>
           </div>
         </div>
 
@@ -258,13 +258,10 @@ function Homepage() {
           </div>
 
           <div className="photo-caption-overlay">
-            <h4>" Neatly Finished Lawn "</h4>
-            <p>15th of August 2024</p>
+            <h4>" Car Park Tidy Up 🍁 "</h4>
+            <p>24th of September 2024</p>
           </div>
         </div>
-
-
-
         </div>
         </section>
 
