@@ -1,5 +1,83 @@
+/* Mobile and General Styles */
+@media (max-width: 767px) {
+  header {
+    background-color: #004c3f;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 10px;
+  }
 
-/* Tablet and Desktop Styles */
+  #headerNavbar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .mobile-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 4px; 
+    margin-top: 4px; 
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .mobile-social-icons img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+    background: none; 
+    border: none;
+  }
+  
+
+  #headerNavbar img {
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .nav-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+    font-size: 0.85rem;
+  }
+
+  .nav-link-wrapper a.active {
+    border-bottom: 2px solid white !important;
+  }
+
+  .homepage-links {
+    display: none;
+  }
+}
+
+
+
+/* Desktop Styles */
 @media (min-width: 767px) {
 html {
   scroll-behavior: smooth;
@@ -12,6 +90,10 @@ html {
 
 
 /* Sidebar Header */
+.mobile-social-icons {
+  display: none;
+}
+
 header {
   width: 200px;
   position: fixed;

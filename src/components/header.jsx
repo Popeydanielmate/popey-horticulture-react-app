@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
 import popeyHortLogo from "../assets/popey_hort_default.jpg";
+import envelopeIcon from "../assets/envelope_icon.png";
+import phoneIcon from "../assets/phone-icon.webp";
+import facebookIcon from "../assets/facebook-icon.png";
+import instaIcon from "../assets/insta-icon.png";
+
 
 function Header() {
   const [activeSection, setActiveSection] = useState("home");
@@ -32,7 +37,34 @@ function Header() {
   return (
     <header>
       <nav id="headerNavbar">
+      <div className="mobile-top-row">
+        <div className="mobile-social-icons">
+          <a href="mailto:ben@popeyshorticulture.com">
+            <img src={envelopeIcon} alt="Email" />
+          </a>
+          <a href="tel:0452226521">
+            <img src={phoneIcon} alt="Call" />
+          </a>
+          <a
+            href="https://www.facebook.com/popeyhorticulture"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={facebookIcon} alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/popeys.horticulture/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instaIcon} alt="Instagram" />
+          </a>
+        </div>
+
         <img src={popeyHortLogo} alt="Popey's Horticulture Logo" />
+      </div>
+
+
         <div className="nav-link-wrapper">
         <a href="#home" className={activeSection === "home" ? "active" : ""}>
           Home
