@@ -230,7 +230,7 @@ function Homepage() {
           </div>
 
           <div className="photo-caption-overlay">
-            <h4>" My First Ever Turf Laying Job, Just Needs A Top Dressing! "</h4>
+            <h4>" Our First Ever Turf Laying Job, Just Needs A Top Dressing! "</h4>
             <p>4th of December 2024</p>
           </div>
         </div>
