@@ -38,30 +38,27 @@ function Header() {
     <header>
       <nav id="headerNavbar">
       <div className="mobile-top-row">
-        <div className="mobile-social-icons">
-          <a href="mailto:ben@popeyshorticulture.com">
-            <img src={envelopeIcon} alt="Email" />
-          </a>
-          <a href="tel:0452226521">
-            <img src={phoneIcon} alt="Call" />
-          </a>
-          <a
-            href="https://www.facebook.com/popeyhorticulture"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={facebookIcon} alt="Facebook" />
-          </a>
-          <a
-            href="https://www.instagram.com/popeys.horticulture/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instaIcon} alt="Instagram" />
-          </a>
-        </div>
+      <div className="mobile-contact-links">
+        <a href="mailto:ben@popeyshorticulture.com" className="mobile-contact-link">
+          <img src={envelopeIcon} alt="Email" />
+          <span>Email</span>
+        </a>
+        <a href="tel:0452226521" className="mobile-contact-link">
+          <img src={phoneIcon} alt="Phone" />
+          <span>Phone</span>
+        </a>
+        <a href="https://www.facebook.com/popeyhorticulture" className="mobile-contact-link" target="_blank" rel="noopener noreferrer">
+          <img src={facebookIcon} alt="Facebook" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/popeys.horticulture/" className="mobile-contact-link" target="_blank" rel="noopener noreferrer">
+          <img src={instaIcon} alt="Instagram" />
+          <span>Instagram</span>
+        </a>
+      </div>
 
-        <img src={popeyHortLogo} alt="Popey's Horticulture Logo" />
+
+        <img src={popeyHortLogo} alt="Popey's Horticulture Logo" class="logo-img" />
       </div>
 
 
