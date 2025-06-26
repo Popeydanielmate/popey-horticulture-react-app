@@ -103,6 +103,76 @@
     border-bottom: 2px solid white !important;
   }
 
+  #home {
+    padding: 24px 12px;
+    background-color: #f5f9f2; 
+    text-align: center;
+  }
+  
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 14px;
+    font-family: 'Arial Black', sans-serif;
+    line-height: 1.2;
+  }
+  
+  .home-heading .popeys {
+    font-size: 2.6rem;
+    color: #004c3f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    display: block;
+  }
+  
+  .home-heading .horticulture {
+    font-size: 2.1rem;
+    color: #8b0000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+  }
+  
+  .home-heading .subtext {
+    font-size: 1.4rem;
+    color: #004c3f;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    display: block;
+    margin-top: 6px;
+  }
+  
+  #home p {
+    margin: 18px auto;
+    font-size: 1.05rem;
+    max-width: 340px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-underline {
+    height: 2px;
+    background-color: #004c3f;
+    border: none;
+    width: 300px;
+    margin: 10px auto;
+  }
+  
+  .photo-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
   .homepage-links {
     display: none;
   }
