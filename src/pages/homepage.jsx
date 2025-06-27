@@ -38,7 +38,8 @@ function Homepage() {
       <section id="home">
       <h1 className="home-heading">
         <span className="popeys">POPEY’S</span>{' '}
-        <span className="horticulture">HORTICULTURE</span> –{' '}
+        <span className="horticulture">HORTICULTURE</span> 
+        <span className="mobile-dash"> – </span> {' '}
         <span className="subtext">MOWING & GARDENING</span>
       </h1>
 
