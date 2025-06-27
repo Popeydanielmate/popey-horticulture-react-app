@@ -23,6 +23,8 @@
     z-index: 999;
     background-color: #004c3f;
     height: 15vh;
+    min-height: 120px;
+    max-height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
