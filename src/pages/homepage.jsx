@@ -87,7 +87,7 @@ function Homepage() {
       </section>
 
       <section id="about">
-      <div class="about-content">
+      <div className="about-content">
       <h2>
         <span>We help clients to create</span>{' '}
         <span className="about-accent">the perfect outdoor garden space</span>
