@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: white; 
+    overflow-x: hidden;
   }
   
   *,
@@ -15,6 +16,11 @@
   }
   
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
     background-color: #004c3f;
     height: 15vh;
     display: flex;
@@ -102,6 +108,11 @@
   .nav-link-wrapper a.active {
     border-bottom: 2px solid white !important;
   }
+
+  .main-content {
+    padding-top: 15vh;
+  }
+
 
   #home {
     padding: 24px 12px;
