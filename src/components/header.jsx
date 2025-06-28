@@ -14,6 +14,19 @@ import hort_cover_photo6 from "../assets/hort_cover_photo6.jpg"
 
 
 function Header() {
+
+  const [activeStory, setActiveStory] = useState(null);
+
+  useEffect(() => {
+    if (activeStory) {
+      const timer = setTimeout(() => {
+        setActiveStory(null);
+      }, 15000); 
+  
+      return () => clearTimeout(timer); 
+    }
+  }, [activeStory]);
+
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
@@ -87,79 +100,120 @@ function Header() {
 
         {/* Start of Stories */}
         <div className="mobile-stories">
-          <div className="story-thumb">
-            <img src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo1} alt="Topiary Town" />
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim"/> 
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys" /> 
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo4} alt="Buxus Hedging" /> 
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo5} alt="More Buxus Hedging" /> 
-          </div>
-          <div className="story-thumb">
-            <img src={hort_cover_photo6} alt="Topiary Tuesday" /> 
-          </div>
+        <div
+          className="story-thumb"
+          onClick={() =>
+            setActiveStory({
+              src: hort_cover_photo,
+              caption: ' Larger Yard Lawn Maintenance 🌿 ',
+              timestamp: '17 July 2024'
+            })
+          }
+          >
+          <img src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo1,
+            caption: '  Topiary Town 🌳  ',
+            timestamp: '8 March 2022'
+          })
+        }
+      >
+        <img src={hort_cover_photo1} alt="Topiary Town" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo2,
+            caption: ' Lilly Pilly Hedge Trim 🌳🌳🌳 ',
+            timestamp: '16 October 2024'
+          })
+        }
+      >
+        <img src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo3,
+            caption: ' Spent My Day Hedging Lilly Pillys 🌲 ',
+            timestamp: '16 October 2024'
+          })
+        }
+      >
+        <img src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo4,
+            caption: ' Buxus Hedging 🌳✂️ ',
+            timestamp: '16 March 2023'
+          })
+        }
+      >
+        <img src={hort_cover_photo4} alt="Buxus Hedging" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo5,
+            caption: ' More Buxus Hedging 🥵 ',
+            timestamp: '15 September 2024'
+          })
+        }
+      >
+        <img src={hort_cover_photo5} alt="More Buxus Hedging" />
+      </div>
+
+      <div
+        className="story-thumb"
+        onClick={() =>
+          setActiveStory({
+            src: hort_cover_photo6,
+            caption: ' Topiary Tuesday 🌳🍃 ',
+            timestamp: '10 September 2024'
+          })
+        }
+      >
+        <img src={hort_cover_photo6} alt="Topiary Tuesday" />
+      </div>
+
           </div>
       </nav>
     </header>
 
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
-    <div class="modal-caption">"  Larger Yard Lawn Maintenance 🌿  "</div>
-    <div class="modal-timestamp">17 July 2024</div>
+    {activeStory && (
+    <div className="story-modal active">
+      <div className="story-timer-bar"></div>
+      <span
+        className="close-modal"
+        onClick={() => setActiveStory(null)}
+      >
+        &times;
+      </span>
+      <img
+        className="modal-image"
+        src={activeStory.src}
+        alt={activeStory.caption}
+      />
+      <div className="modal-caption">"{activeStory.caption}"</div>
+      <div className="modal-timestamp">{activeStory.timestamp}</div>
     </div>
+)}
 
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo1} alt="Topiary Town" />
-    <div class="modal-caption">"  Topiary Town 🌳  "</div>
-    <div class="modal-timestamp">8 March 2022</div>
-    </div>
-
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim"/>
-    <div class="modal-caption">" Lilly Pilly Hedge Trim 🌳🌳🌳 "</div>
-    <div class="modal-timestamp">16 October 2024</div>
-    </div>
-
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys"/>
-    <div class="modal-caption">" Spent My Day Hedging Lilly Pillys 🌲  "</div>
-    <div class="modal-timestamp">16 October 2024</div>
-    </div>
-
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo4} alt="Buxus Hedging" />
-    <div class="modal-caption">" Buxus Hedging 🌳✂️ "</div>
-    <div class="modal-timestamp">15 September 2024</div>
-    </div>
-
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo5} alt="More Buxus Hedging"  />
-    <div class="modal-caption">" More Buxus Hedging 🥵 "</div>
-    <div class="modal-timestamp">15 September 2024</div>
-    </div>
-
-    <div id="storyModal" class="story-modal">
-    <span class="close-modal">&times;</span>
-    <img class="modal-image" src={hort_cover_photo6} alt="Topiary Tuesday"  />
-    <div class="modal-caption">" Topiary Tuesday 🌳🍃 "</div>
-    <div class="modal-timestamp">10 September 2024</div>
-    </div>
 
     </>
 
