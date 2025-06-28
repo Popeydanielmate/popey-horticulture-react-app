@@ -196,22 +196,33 @@ function Header() {
     </header>
 
     {activeStory && (
-    <div className="story-modal active">
-      <div className="story-timer-bar"></div>
-      <span
-        className="close-modal"
-        onClick={() => setActiveStory(null)}
-      >
-        &times;
-      </span>
+  <div className="story-modal active">
+    <div className="story-timer-bar"></div>
+    <span
+      className="close-modal"
+      onClick={() => setActiveStory(null)}
+    >
+      &times;
+    </span>
+
+    <div className="story-image-wrapper">
+      {/* Blurred Background */}
+      <div
+        className="story-blurred-bg"
+        style={{ backgroundImage: `url(${activeStory.src})` }}
+      ></div>
+
+      {/* Foreground Image */}
       <img
         className="modal-image"
         src={activeStory.src}
         alt={activeStory.caption}
       />
-      <div className="modal-caption">"{activeStory.caption}"</div>
-      <div className="modal-timestamp">{activeStory.timestamp}</div>
     </div>
+
+    <div className="modal-caption">"{activeStory.caption}"</div>
+    <div className="modal-timestamp">{activeStory.timestamp}</div>
+  </div>
 )}
 
 
