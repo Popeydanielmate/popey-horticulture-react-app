@@ -373,6 +373,10 @@ header img {
   height: 4px;
 }
 
+.mobile-stories {
+  display: none;
+}
+
 /* Main Content */
 .main-content {
   margin-left: 220px;
