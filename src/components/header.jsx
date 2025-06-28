@@ -42,6 +42,7 @@ function Header() {
   }, []);
 
   return (
+    <>
     <header>
       <nav id="headerNavbar">
       <div className="mobile-top-row">
@@ -110,7 +111,64 @@ function Header() {
           </div>
       </nav>
     </header>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
+    <div class="modal-caption">"  Larger Yard Lawn Maintenance 🌿  "</div>
+    <div class="modal-timestamp">17 July 2024</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo1} alt="Topiary Town" />
+    <div class="modal-caption">"  Topiary Town 🌳  "</div>
+    <div class="modal-timestamp">8 March 2022</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim"/>
+    <div class="modal-caption">" Lilly Pilly Hedge Trim 🌳🌳🌳 "</div>
+    <div class="modal-timestamp">16 October 2024</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys"/>
+    <div class="modal-caption">" Spent My Day Hedging Lilly Pillys 🌲  "</div>
+    <div class="modal-timestamp">16 October 2024</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo4} alt="Buxus Hedging" />
+    <div class="modal-caption">" Buxus Hedging 🌳✂️ "</div>
+    <div class="modal-timestamp">15 September 2024</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo5} alt="More Buxus Hedging"  />
+    <div class="modal-caption">" More Buxus Hedging 🥵 "</div>
+    <div class="modal-timestamp">15 September 2024</div>
+    </div>
+
+    <div id="storyModal" class="story-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-image" src={hort_cover_photo6} alt="Topiary Tuesday"  />
+    <div class="modal-caption">" Topiary Tuesday 🌳🍃 "</div>
+    <div class="modal-timestamp">10 September 2024</div>
+    </div>
+
+    </>
+
   );
 }
+
+
+
+
+
 
 export default Header;

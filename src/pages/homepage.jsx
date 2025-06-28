@@ -193,7 +193,7 @@ function Homepage() {
           <img src={hort_cover_photo5} alt="More Buxus Hedging" />
           <div className="photo-caption">
             <h4>" More Buxus Hedging 🥵 "</h4>
-            <p>15th of September</p>
+            <p>15th of September 2024</p>
           </div>
         </div>
 
