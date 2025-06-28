@@ -22,9 +22,8 @@
     right: 0;
     z-index: 999;
     background-color: #004c3f;
-    height: 15vh;
-    min-height: 120px;
-    max-height: 180px;
+    height: auto;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,8 +110,38 @@
     border-bottom: 2px solid white !important;
   }
 
+  .mobile-stories {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 12px;
+    margin: 0;
+    background-color: #004c3f; 
+    scroll-padding-left: 12px;
+    box-sizing: border-box;
+  }
+  
+  
+  .story-thumb {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #8FBC8F; 
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  
+  .story-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
   .main-content {
-    padding-top: 15vh;
+    padding-top: 200px;
   }
 
 

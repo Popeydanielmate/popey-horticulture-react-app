@@ -4,6 +4,13 @@ import envelopeIcon from "../assets/envelope_icon.png";
 import phoneIcon from "../assets/phone-icon.webp";
 import facebookIcon from "../assets/facebook-icon.png";
 import instaIcon from "../assets/insta-icon.png";
+import hort_cover_photo from "../assets/hort_cover_photo.jpg"
+import hort_cover_photo1 from "../assets/hort_cover_photo1.jpg"
+import hort_cover_photo2 from "../assets/hort_cover_photo2.jpg"
+import hort_cover_photo3 from "../assets/hort_cover_photo3.jpg"
+import hort_cover_photo4 from "../assets/hort_cover_photo4.jpg"
+import hort_cover_photo5 from "../assets/hort_cover_photo5.jpg"
+import hort_cover_photo6 from "../assets/hort_cover_photo6.jpg"
 
 
 function Header() {
@@ -76,6 +83,31 @@ function Header() {
           Gallery
         </a>
         </div>
+
+        {/* Start of Stories */}
+        <div className="mobile-stories">
+          <div className="story-thumb">
+            <img src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo1} alt="Topiary Town" />
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim"/> 
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys" /> 
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo4} alt="Buxus Hedging" /> 
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo5} alt="More Buxus Hedging" /> 
+          </div>
+          <div className="story-thumb">
+            <img src={hort_cover_photo6} alt="Topiary Tuesday" /> 
+          </div>
+          </div>
       </nav>
     </header>
   );

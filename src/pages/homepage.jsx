@@ -190,7 +190,7 @@ function Homepage() {
         </div>
 
         <div className="gallery-photo-wrapper">
-          <img src={hort_cover_photo5} alt="More Buxus Hedging " />
+          <img src={hort_cover_photo5} alt="More Buxus Hedging" />
           <div className="photo-caption">
             <h4>" More Buxus Hedging 🥵 "</h4>
             <p>15th of September</p>
