@@ -136,7 +136,9 @@ function Header() {
             })
           }
           >
+            <div class="story-inner-ring">
           <img src={hort_cover_photo} alt="Larger Yard Lawn Maintenance" />
+          </div>
       </div>
 
       <div
@@ -149,7 +151,9 @@ function Header() {
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo1} alt="Topiary Town" />
+        </div>
       </div>
 
       <div
@@ -162,7 +166,9 @@ function Header() {
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo2} alt="Lilly Pilly Hedge Trim" />
+        </div>
       </div>
 
       <div
@@ -170,12 +176,14 @@ function Header() {
         onClick={() =>
           setActiveStory({
             src: hort_cover_photo3,
-            caption: ' Spent My Day Hedging Lilly Pillys 🌲 ',
+            caption: ' Spent My Day Hedging Lilly Pillys🌲 ',
             timestamp: '16 October 2024'
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo3} alt="Spent My Day Hedging Lilly Pillys" />
+        </div>
       </div>
 
       <div
@@ -188,7 +196,9 @@ function Header() {
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo4} alt="Buxus Hedging" />
+        </div>
       </div>
 
       <div
@@ -201,7 +211,9 @@ function Header() {
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo5} alt="More Buxus Hedging" />
+        </div>
       </div>
 
       <div
@@ -214,7 +226,9 @@ function Header() {
           })
         }
       >
+        <div class="story-inner-ring">
         <img src={hort_cover_photo6} alt="Topiary Tuesday" />
+        </div>
       </div>
 
           </div>

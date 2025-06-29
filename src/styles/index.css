@@ -131,13 +131,31 @@
     overflow: hidden;
     flex-shrink: 0;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; 
   }
   
-  .story-thumb img {
+  .story-inner-ring {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+    
+  .story-inner-ring img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
   }
+  
 
   .story-modal {
     display: none;
