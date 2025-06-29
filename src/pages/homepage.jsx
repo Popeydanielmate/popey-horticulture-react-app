@@ -32,7 +32,6 @@ function Homepage() {
     };
 
 
-
   return (
     <div>
       <section id="home">
@@ -223,13 +222,12 @@ function Homepage() {
 
         <div className="gallery-container">
         <div className="gallery-item">
-          <div className="gallery-image-wrapper before-wrapper">
+          <div className="gallery-image-wrapper before-wrapper" data-label="Before">
             <img className="gallery-image before" src={before1} alt="Before" />
           </div>
-          <div className="gallery-image-wrapper after-wrapper">
+          <div className="gallery-image-wrapper after-wrapper" data-label="After">
             <img className="gallery-image after" src={after1} alt="After" />
           </div>
-
           <div className="photo-caption-overlay">
             <h4>" Our First Ever Turf Laying Job, Just Needs A Top Dressing! "</h4>
             <p>4th of December 2024</p>
@@ -237,10 +235,10 @@ function Homepage() {
         </div>
 
         <div className="gallery-item">
-          <div className="gallery-image-wrapper before-wrapper">
+          <div className="gallery-image-wrapper before-wrapper" data-label="Before">
             <img className="gallery-image before" src={before2} alt="Before" />
           </div>
-          <div className="gallery-image-wrapper after-wrapper">
+          <div className="gallery-image-wrapper after-wrapper" data-label="After">
             <img className="gallery-image after" src={after2} alt="After" />
           </div>
 
@@ -251,10 +249,10 @@ function Homepage() {
         </div>
 
         <div className="gallery-item">
-          <div className="gallery-image-wrapper before-wrapper">
+          <div className="gallery-image-wrapper before-wrapper" data-label="Before">
             <img className="gallery-image before" src={before3} alt="Before" />
           </div>
-          <div className="gallery-image-wrapper after-wrapper">
+          <div className="gallery-image-wrapper after-wrapper" data-label="After">
             <img className="gallery-image after" src={after3} alt="After" />
           </div>
 
