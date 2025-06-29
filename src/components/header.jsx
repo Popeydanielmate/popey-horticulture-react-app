@@ -27,6 +27,32 @@ function Header() {
     }
   }, [activeStory]);
 
+  const [touchStartY, setTouchStartY] = useState(null);
+  const [touchEndY, setTouchEndY] = useState(null);
+
+  const handleTouchStart = (e) => {
+  setTouchStartY(e.touches[0].clientY);
+};
+
+  const handleTouchMove = (e) => {
+    setTouchEndY(e.touches[0].clientY);
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartY !== null && touchEndY !== null) {
+      const swipeDistance = touchEndY - touchStartY;
+      if (swipeDistance > 50) {
+        
+        setActiveStory(null);
+      }
+    }
+
+    
+    setTouchStartY(null);
+    setTouchEndY(null);
+  };
+
+
   const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
@@ -196,7 +222,11 @@ function Header() {
     </header>
 
     {activeStory && (
-  <div className="story-modal active">
+  <div className="story-modal active"
+    onTouchStart={handleTouchStart}
+    onTouchMove={handleTouchMove}
+    onTouchEnd={handleTouchEnd}
+  >
     <div className="story-timer-bar"></div>
     <span
       className="close-modal"
