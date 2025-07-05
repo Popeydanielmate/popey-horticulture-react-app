@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background-color: #243e22;
+    background-color: #004c3f;
     height: auto;
     padding-bottom: 10px;
     display: flex;
@@ -126,7 +126,7 @@
     overflow-x: auto;
     padding: 10px 12px;
     margin: 0;
-    background-color: #243e22; 
+    background-color: #004c3f;
     scroll-padding-left: 12px;
     box-sizing: border-box;
   }
@@ -689,7 +689,7 @@
   
   footer {
     padding: 16px 12px;
-    background-color: #243e22;
+    background-color: #004c3f;
     text-align: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
