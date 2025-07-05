@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background-color: #004c3f;
+    background-color: #243e22;
     height: auto;
     padding-bottom: 10px;
     display: flex;
@@ -126,7 +126,7 @@
     overflow-x: auto;
     padding: 10px 12px;
     margin: 0;
-    background-color: #004c3f; 
+    background-color: #243e22; 
     scroll-padding-left: 12px;
     box-sizing: border-box;
   }
