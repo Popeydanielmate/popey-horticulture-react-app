@@ -748,7 +748,7 @@
 
 
 /* Desktop Styles */
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 html {
   scroll-behavior: smooth;
   scroll-padding-left: 220px;
