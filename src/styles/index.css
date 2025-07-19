@@ -1450,6 +1450,37 @@ footer {
   .about-underline {
     width: 94%;
   }
+
+  .service::before {
+    opacity: 1; 
+  }
+
+  .service h3,
+  .service p {
+    color: white; 
+  }
+
+  
+  .service.active {
+    background-color: white;
+  }
+
+  .service.active h3 {
+    color: #036413; 
+  }
+
+  .service.active p {
+    color: #000; 
+  }
+
+  .service:hover::before {
+    opacity: 1;
+  }
+
+  .service:hover h3,
+  .service:hover p {
+    color: white;
+  }
 }
 
 
