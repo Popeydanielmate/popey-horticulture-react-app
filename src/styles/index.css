@@ -1451,6 +1451,10 @@ footer {
     width: 94%;
   }
 
+  .services-underline {
+    width: 42%; 
+  }
+
   .service::before {
     opacity: 1; 
   }
