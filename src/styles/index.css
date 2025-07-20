@@ -1487,6 +1487,19 @@ footer {
     width: 25%;
   }
 
+  .photo-caption {
+    height: 22%;
+    padding: 10px 14px; 
+  }
+
+  .photo-caption h4 {
+    font-size: 1.6rem; 
+  }
+
+  .photo-caption p {
+    font-size: 0.85rem; 
+  }
+
   .gallery-sub-underline {
     width: 88%;
   }
