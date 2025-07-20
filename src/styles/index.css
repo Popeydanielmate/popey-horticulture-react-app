@@ -1464,26 +1464,21 @@ footer {
     color: white; 
   }
 
-  
-  .service.active {
-    background-color: white;
+  .service {
+    background-color: transparent; 
+    cursor: default; 
+    box-shadow: none; 
+    transform: none; 
   }
 
-  .service.active h3 {
-    color: #036413; 
-  }
-
-  .service.active p {
-    color: #000; 
-  }
-
-  .service:hover::before {
-    opacity: 1;
+  .service:hover {
+    box-shadow: none;
+    transform: none;
   }
 
   .service:hover h3,
   .service:hover p {
-    color: white;
+    color: white; 
   }
 }
 
