@@ -1486,6 +1486,10 @@ footer {
   .gallery-underline {
     width: 25%;
   }
+
+  .gallery-sub-underline {
+    width: 88%;
+  }
 }
 
 
