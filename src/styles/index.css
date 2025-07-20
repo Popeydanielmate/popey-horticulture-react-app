@@ -1503,6 +1503,20 @@ footer {
   .gallery-sub-underline {
     width: 88%;
   }
+
+  .photo-caption-overlay {
+    width: 42%;
+    height: 22%;
+    padding: 10px 14px;
+  }
+
+  .photo-caption-overlay h4 {
+    font-size: 1.5rem;
+  }
+
+  .photo-caption-overlay p {
+    font-size: 0.85rem;
+  }
 }
 
 
