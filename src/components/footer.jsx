@@ -38,7 +38,7 @@ export default function Footer() {
         </a>
       </div>
       </div>
-      <h6>Copyright 2024 Popey's Horticulture. Site made by Daniel Pope</h6>
+      <h6>Copyright 2025 Popey's Horticulture. Site made by Daniel Pope</h6>
     </footer>
   );
 }
