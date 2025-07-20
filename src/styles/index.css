@@ -1461,7 +1461,8 @@ footer {
 
   .service h3,
   .service p {
-    color: white; 
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); 
   }
 
   .service {
@@ -1478,7 +1479,8 @@ footer {
 
   .service:hover h3,
   .service:hover p {
-    color: white; 
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); 
   }
 }
 
