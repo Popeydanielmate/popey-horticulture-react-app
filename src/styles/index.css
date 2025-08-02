@@ -745,6 +745,11 @@
   
 }
 
+/* Overrides for mobile landscape */
+@media (max-width: 767px) and (orientation: landscape) {
+  
+}
+
 
 
 /* Desktop Styles */
